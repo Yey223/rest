@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm start index.js
+RUN npm start index.js && yarn install
 
 COPY . .
 
