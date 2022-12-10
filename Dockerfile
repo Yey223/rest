@@ -10,7 +10,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npm install Alpis.js
+RUN npm start index.js
 
 COPY . .
 
